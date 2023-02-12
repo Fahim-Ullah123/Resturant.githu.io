@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- font awesome cdn link -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+
+    <!-- navbar section start -->
+
+
+    <section>
+        <nav class="main">
+            <img src="Dani-logos_transparent.png" alt="">
+            <ul id="responsive">
+                <li class="1"> <a href="index.html">home</a> </li>
+                <li class="1"> <a href="about.html">this is us</a> </li>
+                <li class="1"> <a href="menu.html">menu</a> </li>
+                <li class="1"> <a href="online order.html">online order</a> </li>
+                <li class="1"> <a href="contact.html">contact</a> </li>
+            </ul>
+            <div class="icon">
+                <i onclick="closeMenu ()" class="fa-solid fa-xmark" id="hideMenu"></i>
+                <i onclick="openMenu ()" class="fa-solid fa-bars" id="showMenu"></i>
+            </div>
+        </nav>
+    </section>
+    <!-- navbar section end -->
+
+
+
+    <!-- contact section start  -->
+
+    <div class="menu">
+        <h1>
+
+            Let's Connect
+        </h1>
+        <p>I'm a paragraph. Click here to add your own text and edit me.
+            <br>
+            Let your users get to know you.
+        </p>
+    </div>
+
+
+
+    <!-- contact section end  -->
+
+    <form class="form">
+        <div class="row">
+            <div class="col-1">
+                First Name * <br>
+                <input type="text" name="" value="" required> <br>
+                Last Name * <br>
+                <input type="text" name="" value="" required> <br>
+                Email : <br>
+                <input type="Email" name="" value="" required> <br>
+                Message * <br>
+                <textarea name="" id="" cols="60" rows="7"></textarea> <br>
+                <a href=""><button type="sub
+                ">Send</button></a>
+
+            </div>
+            <div class="col-2">
+
+            </div>
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-1">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4>Adress</h4>
+                        <p> 500 Terry Francois St.
+                            <br>
+                            San Francisco, CA 94158
+                        </p>
+                    </div>
+                    <div class="col-1">
+                        <i class="fa-solid fa-phone"></i>
+                        <h4>Phone</h4>
+                        <p> 500 Terry Francois St.
+                            <br>
+                            San Francisco, CA 94158
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-1">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>info@mysite.com
+                        </p>
+                    </div>
+                    <div class="col-1">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <h4>Follow</h4>
+                        <p>
+                          <a href="https://www.facebook.com/profile.php?id=100069227631209"> <i class="fa-brands fa-solid fa-facebook"></i></a> 
+                          <a href="https://twitter.com/FaheemWazir12"><i class="fa-brands fa-solid fa-twitter"></i></a>  
+                          <a href="https://www.instagram.com/faheemahmed441/"><i class="fa-brands fa-solid fa-instagram"></i></a>  
+                           <a href="https://www.linkedin.com/in/faheemwazir/"><i class="fa-brands fa-solid  fa-linkedin"></i></a> 
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </form>
+
+
+<section class="map">
+<div class="map1">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3933.6582883164624!2d71.46784806881696!3d33.997692303123614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1speshawar%20board%20bazar!5e0!3m2!1sen!2s!4v1675965198581!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</section>
+
+
+ <!-- footer section start     -->
+
+ <footer class="footer">
+    <div class="row">
+        <div class="col-1">
+            <h1>Newsletter</h1>
+            <p>Stay up to date with all the latest from <br> 47th Cafe</p>
+
+            <form onsubmit="submit()">
+                <input type="email" name="email" id="input" placeholder="Email" required>
+                 <input class="inpot" type="submit"></input>
+                </form>
+        </div>
+        <div class="col-2">
+            <h1>
+                Talk to Us</h1>
+            <p>123-456-7890
+                <br>
+                info@mysite.com
+            </p>
+            <p>500 Terry Francois St.
+                <br>
+                San Francisco, CA 94158
+            </p>
+        </div>
+        <div class="col-3">
+            <h1>
+                Twitter</h1>
+            <h1> Facebook</h1>
+            <h1> Instagram</h1>
+
+        </div>
+    </div>
+</footer>
+<div class="copy-right">
+    <p>© Fahim Ullah 2023 All right reserved</p>
+</div>
+
+<!-- footer end  -->
+
+    <script src="index.js">
+
+    </script>
+</body>

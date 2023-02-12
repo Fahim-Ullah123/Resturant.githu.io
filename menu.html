@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+
+<!-- font awesome cdn link -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+
+    <!-- navbar section start -->
+
+
+    <section>
+        <nav class="main">
+            <img src="Dani-logos_transparent.png" alt="">
+            <ul id="responsive">
+                <li class="1"> <a href="index.html">home</a> </li>
+                <li class="1"> <a href="about.html">this is us</a> </li>
+                <li class="1"> <a href="menu.html">menu</a> </li>
+                <li class="1"> <a href="online order.html">online order</a> </li>
+                <li class="1"> <a href="contact.html">contact</a> </li>
+            </ul>
+            <div class="icon">
+                <i onclick="closeMenu ()" class="fa-solid fa-xmark" id="hideMenu"></i>
+                <i onclick="openMenu ()" class="fa-solid fa-bars" id="showMenu"></i>
+            </div>
+        </nav>
+    </section>
+    <!-- navbar section end -->
+
+    <!-- Our menu section start  -->
+
+    <div class="menu">
+        <h1>
+            Our Menu
+        </h1>
+        <p>I'm a paragraph. Click here to add your own text and edit me.
+            <br>
+            Let your users get to know you.
+        </p>
+    </div>
+
+    <!-- Our menu section end  -->
+
+    <!-- every day section start  -->
+
+    <section class="every">
+
+        <h1>All Day Every Day</h1>
+        <h2>Bakery</h2>
+        <div class="ul">
+
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h6>Croissant (Plain/Chocolate)</h6>
+                <p>I’m a dish description. Click “Edit Menu” to <br> open the Restaurant Menu editor and change <br> my
+                    text.</p>
+                <span>$6</span>
+            </div>
+            <div class="col-2">
+                <h6>Chia Pudding</h6>
+                <p>I’m a dish description. Click “Edit Menu” to <br> open the Restaurant Menu editor and change <br> my
+                    text.</p>
+                <span>$6</span>
+            </div>
+            <div class="col-3">
+                <h6>Superfood Acai Bowl</h6>
+                <p>I’m a dish description. Click “Edit Menu” to <br> open the Restaurant Menu editor and change <br> my
+                    text.</p>
+                <span>$6</span>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- every day section end  -->
+
+    <!-- Breakfast section start  -->
+
+    <section class="breakfast">
+        <h1>All-Day Breakfast</h1>
+
+        <div class="under">
+
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h5>Granola & Greek Yogurt</h5>
+                <p>I’m a dish description. Click “Edit Menu” <br> open the Restaurant Menu editor and change <br> my
+                    text.</p>
+                <span>$12</span>
+            </div>
+            <div class="col-2">
+                <h5>Chia Pudding</h5>
+                <p>I’m a dish description. Click “Edit Menu” <br> open the Restaurant Menu editor and change <br> my
+                    text.</p>
+                <span>$12</span>
+            </div>
+            <div class="col-3">
+                <h5>Superfood Acai Bowl</h5>
+                <p>I’m a dish description. Click “Edit Menu” <br> open the Restaurant Menu editor and change <br> my
+                    text.</p>
+                <span>$12</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h5>Granola & Greek Yogurt</h5>
+                <p>I’m a dish description. Click “Edit Menu” <br> open the Restaurant Menu editor and change <br> my
+                    text.</p>
+                <span>$12</span>
+            </div>
+            <div class="col-2">
+                <h5>Chia Pudding</h5>
+                <p>I’m a dish description. Click “Edit Menu” <br> open the Restaurant Menu editor and change <br> my
+                    text.</p>
+                <span>$12</span>
+            </div>
+            <div class="col-3">
+                <h5>Superfood Acai Bowl</h5>
+                <p>I’m a dish description. Click “Edit Menu” <br> open the Restaurant Menu editor and change <br> my
+                    text.</p>
+                <span>$12</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h5>Granola & Greek Yogurt</h5>
+                <p>I’m a dish description. Click “Edit Menu” <br> open the Restaurant Menu editor and change <br> my
+                    text.</p>
+                <span>$12</span>
+            </div>
+            <div class="col-2">
+                <h5>Chia Pudding</h5>
+                <p>I’m a dish description. Click “Edit Menu” <br> open the Restaurant Menu editor and change <br> my
+                    text.</p>
+                <span>$12</span>
+            </div>
+            <div class="col-3">
+                <h5>Superfood Acai Bowl</h5>
+                <p>I’m a dish description. Click “Edit Menu” <br> open the Restaurant Menu editor and change <br> my
+                    text.</p>
+                <span>$12</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start     -->
+
+    <footer class="footer">
+        <div class="row">
+            <div class="col-1">
+                <h1>Newsletter</h1>
+                <p>Stay up to date with all the latest from <br> 47th Cafe</p>
+
+                <form onsubmit="submit()">
+                    <input type="email" name="email" id="input" placeholder="Email" required>
+                     <input class="inpot" type="submit"></input>
+                    </form>
+            </div>
+            <div class="col-2">
+                <h1>
+                    Talk to Us</h1>
+                <p>123-456-7890
+                    <br>
+                    info@mysite.com
+                </p>
+                <p>500 Terry Francois St.
+                    <br>
+                    San Francisco, CA 94158
+                </p>
+            </div>
+            <div class="col-3">
+                <h1>
+                    Twitter</h1>
+                <h1> Facebook</h1>
+                <h1> Instagram</h1>
+
+            </div>
+        </div>
+    </footer>
+    <div class="copy-right">
+        <p>© Fahim Ullah 2023 All right reserved</p>
+    </div>
+
+    <!-- footer end  -->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js">
+
+    </script>
+</body>
+
+</html>

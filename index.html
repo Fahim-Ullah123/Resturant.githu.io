@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturant Website</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- font awesome cdn link -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+
+ <!-- navbar section start -->
+
+
+    <section>
+        <nav class="main">
+            <img src="Dani-logos_transparent.png" alt="">
+            <ul id="responsive">
+                <li class="1"> <a href="index.html">home</a> </li>
+                <li class="1"> <a href="about.html">this is us</a> </li>
+                <li class="1"> <a href="menu.html">menu</a> </li>
+                <li class="1"> <a href="online order.html">online order</a> </li>
+                <li class="1"> <a href="contact.html">contact</a> </li>
+            </ul>
+            <div class="icon">
+                <i onclick="closeMenu ()" class="fa-solid fa-xmark" id="hideMenu"></i>
+                <i onclick="openMenu ()" class="fa-solid fa-bars" id="showMenu"></i>
+            </div>
+        </nav>
+
+ <!-- navbar section end -->
+
+ <!-- hero section start -->
+
+
+
+        <div class="hero">
+            <img src="pexels-susanne-jutzeler-sujufoto-1132558.jpg">
+            <div class="hero-content">
+                <h1>Come and Enjoy <br> Delicious Eats & Coffee</h1>
+                <button type="text" >See More</button>
+                <button type="text" >Sign Up</button>
+            </div>
+        </div>
+    </section>
+
+     <!-- hero section end -->
+
+
+    <!-- Eat section start -->
+
+    <section class="eat">
+        <div class="row">
+            <div class="col1">
+                <h1>Eat.</h1>
+                <h5>Breakfast, Lunch and Artisanal Pastries</h5>
+                <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a
+                    story and let your users know a little more about you.</p>
+                <button type="text">See More</button>
+            </div>
+            <div class="col2">
+                <img src="pexels-photo-761854.jpeg" alt="">
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="col1">
+                <img src="pexels-photo-5775055.jpeg" alt="">
+            </div>
+            <div class="col2">
+                <h1>Drink.</h1>
+                <h5>Cold Drinks, Coffee and Artisanal Juices</h5>
+                <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a
+                    story and let your users know a little more about you.</p>
+                <button type="text">See More</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col1">
+                <h1>Enjoy.</h1>
+                <h5>Enjoy, the Best Fruitful Moment with kids</h5>
+                <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a
+                    story and let your users know a little more about you.</p>
+                <button type="text">Visit Us</button>
+            </div>
+            <div class="col2">
+                <img src="pexels-photo-3807571.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- eat section end -->
+
+    <!-- drop section start     -->
+
+    <section class="drop">
+        <h1>Drop By for a Bite.</h1>
+        <div class="row">
+            <div class="col-1">
+                <h3 class="address">Address</h3>
+                <p>500 Terry Francois St.
+                    <br>
+                    San Francisco, CA 94158
+                </p>
+            </div>
+            <!-- <div class="hr-line">
+                
+            </div> -->
+            <div class="col-2">
+                <h3 class="open">Opening Hours</h3>
+                <p>Mon - Fri: 9am - 6pm <br>
+                    ​​Saturday: 10am - 2pm <br>
+                    ​Sunday: Closed</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- drop section end     -->
+
+    <!-- photo section start     -->
+
+    <section class="photo">
+        <div class="row">
+            <div class="col">
+                <img src="pexels-photo-332091.webp" alt="">
+            </div>
+            <div class="col">
+                <img src="pexels-photo-1173651.jpeg" alt="">
+            </div>
+            <div class="col">
+                <img src="pexels-photo-5641867.jpeg" alt="">
+            </div>
+            <div class="col">
+                <img src="pexels-photo-4846461.webp" alt="">
+            </div>
+            <div class="col">
+                <img src="pexels-photo-4815333.jpeg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- photo section end     -->
+
+    <!-- footer section start     -->
+
+    <footer class="footer">
+        <div class="row">
+            <div class="col-1">
+                <h1>Newsletter</h1>
+                <p>Stay up to date with all the latest from <br> 47th Cafe</p>
+               <form onsubmit="submit()">
+                <input type="email" name="email" id="input" placeholder="Email" required>
+                 <input class="inpot" type="submit"></input>
+                </form>
+            </div>
+            <div class="col-2">
+                <h1>
+                    Talk to Us</h1>
+                <p>123-456-7890
+                    <br>
+                    info@mysite.com
+                </p>
+                <p>500 Terry Francois St.
+                    <br>
+                    San Francisco, CA 94158
+                </p>
+            </div>
+            <div class="col-3">
+                <h1>
+                    Twitter</h1>
+                <h1> Facebook</h1>
+                <h1> Instagram</h1>
+
+            </div>
+        </div>
+    </footer>
+    <div class="copy-right">
+        <p>© Fahim Ullah 2023 All right reserved</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
